@@ -3,7 +3,7 @@
 > These cards **exist** and are written. They are simply not part of your
 > course yet — they arrive as we reach them.
 
-> **Edition** `student-2026-08-31` · built 2026-09-01 from commit `e694c42`  
+> **Edition** `student-2026-08-31` · built 2026-09-01 from commit `957727f`  
 > 314 cards · 343 diagrams · 49 explainers · 88 illustrations
 
 ---

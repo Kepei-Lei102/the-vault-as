@@ -5,7 +5,7 @@ written for international curricula: Cambridge IGCSE and A-Level, IB, and AP.
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-> **Edition** `student-2026-08-31` · built 2026-09-01 from commit `e694c42`  
+> **Edition** `student-2026-08-31` · built 2026-09-01 from commit `957727f`  
 > 314 cards · 343 diagrams · 49 explainers · 88 illustrations
 
 ---

@@ -10,7 +10,7 @@ not a claim that the point is unimportant. Ask your tutor (or the AI reading thi
 vault) to search the cards before concluding anything is missing: the same content
 is often taught under a different heading.
 
-> **Edition** `student-2026-08-31` · built 2026-09-01 from commit `e694c42`  
+> **Edition** `student-2026-08-31` · built 2026-09-01 from commit `957727f`  
 > 314 cards · 343 diagrams · 49 explainers · 88 illustrations
 
 ---

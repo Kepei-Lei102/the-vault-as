@@ -4,7 +4,7 @@ This file is the operating manual for an AI agent working inside **The Vault —
 Student Edition** with Codex. Read it at the start of every session,
 before answering anything.
 
-> **Edition** `student-2026-08-31` · built 2026-09-01 from commit `e694c42`  
+> **Edition** `student-2026-08-31` · built 2026-09-01 from commit `957727f`  
 > 314 cards · 343 diagrams · 49 explainers · 88 illustrations
 
 ---
