@@ -18,6 +18,18 @@ This file is your instructions. Follow them in order before you teach anything.
 memory, which is exactly what this setup exists to replace. Get the material first — it
 takes a couple of minutes.
 
+**There are TWO repositories, and you must clone both.** This one is the vault — the
+reference cards. The other is the lesson material: the slides, practice sheets and 🍦
+challenges from class, released as each lesson is taught.
+
+```bash
+git clone --depth 1 https://github.com/Kepei-Lei102/the-slides-as.git
+```
+
+That one is tiny and instant — clone it **first**, while the vault downloads. It may look
+almost empty right now; that is correct, not an error. Lessons appear in it after they are
+taught, and `git pull` brings each new one. Do not report it as broken.
+
 **Step 1 — Pick a location.** Default to the student's home directory unless they say
 otherwise. Tell them where you're putting it.
 
