@@ -11,6 +11,7 @@ leads_to:
   - "[[Why Probability and Statistics]]"
   - "[[Program Design]]"
   - "[[Decouple and Recouple]]"
+  - "[[The True IO Bound]]"
 tags:
   - subject/methodology
   - subject/philosophy

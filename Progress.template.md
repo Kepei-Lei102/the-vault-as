@@ -8,8 +8,8 @@
 > checkpoint (quiz, game, timed question) proved you can use it.
 > **Stories are just `🔴` unread / `🟢` read.**
 
-> **Edition** `student-2026-09-02` · built 2026-09-04 from commit `47b4330` + uncommitted changes  
-> 319 cards · 348 diagrams · 50 explainers · 91 illustrations
+> **Edition** `student-2026-09-02` · built 2026-09-07 from commit `07e296d` + uncommitted changes  
+> 325 cards · 360 diagrams · 51 explainers · 97 illustrations
 
 ---
 
@@ -241,7 +241,7 @@
 
 ## Physics
 
-*44 cards · ? · ?+light · 🔴 · 🟡 · 🟢*
+*45 cards · ? · ?+light · 🔴 · 🟡 · 🟢*
 
 | Card | Status | Evidence | Date |
 |---|---|---|---|
@@ -267,6 +267,7 @@
 | [[Hooke's Law for Springs]] | ? |  |  |
 | [[Internal Energy]] | ? |  |  |
 | [[Kinetic Theory and the Ideal Gas]] | ? |  |  |
+| [[Kirchhoff's Laws]] | ? |  |  |
 | [[Linear Momentum]] | ? |  |  |
 | [[Linear Motion under a Variable Force]] | ? |  |  |
 | [[Lorentz Force]] | ? |  |  |
@@ -290,9 +291,19 @@
 | [[Vectors in Physics]] | ? |  |  |
 | [[Work, Energy and Power]] | ? |  |  |
 
+## CS
+
+*3 cards · ? · ?+light · 🔴 · 🟡 · 🟢*
+
+| Card | Status | Evidence | Date |
+|---|---|---|---|
+| [[Logic Gates]] | ? |  |  |
+| [[Number Bases]] | ? |  |  |
+| [[Storage Units (Vocab)]] | ? |  |  |
+
 ## Meta
 
-*12 cards · ? · ?+light · 🔴 · 🟡 · 🟢*
+*13 cards · ? · ?+light · 🔴 · 🟡 · 🟢*
 
 | Card | Status | Evidence | Date |
 |---|---|---|---|
@@ -307,11 +318,12 @@
 | [[The Feynman Technique]] | ? |  |  |
 | [[The Gift of the Gradient]] | ? |  |  |
 | [[The Love of Wisdom]] | ? |  |  |
+| [[The True IO Bound]] | ? |  |  |
 | [[Why Probability and Statistics]] | ? |  |  |
 
 ## Stories
 
-*39 cards · 🔴 unread · 🟢 read*
+*40 cards · 🔴 unread · 🟢 read*
 
 | Card | Status | Evidence | Date |
 |---|---|---|---|
@@ -331,6 +343,7 @@
 | [[Lewis Carroll the Mathematician]] | ? |  |  |
 | [[Newton vs Hooke]] | ? |  |  |
 | [[One Take, Many Tracks]] | ? |  |  |
+| [[Ramanujan and Hardy]] | ? |  |  |
 | [[Russell's Paradox in the Post]] | ? |  |  |
 | [[Space Travel]] | ? |  |  |
 | [[Stigler's Law of Eponymy]] | ? |  |  |

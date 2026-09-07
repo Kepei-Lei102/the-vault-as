@@ -1,6 +1,6 @@
 # The Vault — Stories Directory 故事目录
 
-> **39 stories.** Last landed: [[Two Family Trees]] (2026-09-03) — every kernel on Earth descends from one of two 1970s minicomputer operating systems.
+> **40 stories.** Last landed: [[Ramanujan and Hardy]] (2026-09-04) — ten pages of formulas from a Madras clerk, and the professor who could not have invented them.
 > Fun-first historical narratives: the folder where the human drama of mathematics, physics and computing gets to be the *point*, not a footnote. One line per story; the card has the acts, the receipts and the comic.
 
 See also: [[Mathematics/Directory|Mathematics]] · [[Physics/Directory|Physics]] · [[CS/Directory|Computer Science]] · [[Meta/Directory|Meta]].
@@ -23,7 +23,7 @@ Born-in-Stories topics (the War of the Currents, Galois's duel…) have no pedag
 
 ---
 
-## Mathematics (13)
+## Mathematics (14)
 
 1. **[[The Calculus Priority Dispute]]** — Newton vs Leibniz, 1665–1727: the Royal Society's rigged committee, Britain's century in the notation wilderness, Babbage's 1812 fix.
 2. **[[The Hidden Number]]** — 250 years of $e$ from Napier to Hermite: "natural" means *unbidden* — five independent paths keep producing the same constant, nobody choosing it.
@@ -38,6 +38,7 @@ Born-in-Stories topics (the War of the Currents, Galois's duel…) have no pedag
 11. **[[Gauss the Prodigy]]** — the bricklayer's son who calculated his own birthday; the 1-to-100 legend audited, because legends, too, deserve error bars.
 12. **[[The Lady Tasting Tea]]** — eight cups, seventy arrangements: Fisher inventing randomisation and the 5% line over tea, the Pearson feud, Gosset, and two honest edges.
 13. **[[Russell's Paradox in the Post]]** — the 1902 letter that broke Frege's life work while Volume II sat at the printer; the prequel to Gödel.
+14. **[[Ramanujan and Hardy]]** — the 1913 letter from a Madras clerk, the partition formula checked against MacMahon's hand-computed table, the taxi numbered 1729, and the notebook lost for fifty-six years.
 
 ## Physics (10)
 
@@ -76,7 +77,7 @@ Born-in-Stories topics (the War of the Currents, Galois's duel…) have no pedag
 
 ## Roadmap
 
-Titles waiting for their breath, not yet written: *Feynman — Famous for the Wrong Thing* · *Stats Lies Hall of Fame* · *Ramanujan and Hardy* · *Archimedes and the Soldier* · *Laplace and Napoleon* · *Cantor vs Kronecker* · *Hilbert vs Brouwer* · *Erdős the Wandering Mathematician*.
+Titles waiting for their breath, not yet written: *Feynman — Famous for the Wrong Thing* · *Stats Lies Hall of Fame* · *Archimedes and the Soldier* · *Laplace and Napoleon* · *Cantor vs Kronecker* · *Hilbert vs Brouwer* · *Erdős the Wandering Mathematician*.
 
 ---
 

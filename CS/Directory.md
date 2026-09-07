@@ -1,6 +1,6 @@
 # The Vault — Computer Science Directory
 
-> **56 cards across 9 bays.** Last landed: [[Relational Databases]] · [[SQL]] · [[NoSQL and Distributed Data]] (2026-09-04) — the Databases bay, opened and closed in one sitting: 0478 §9, 9618 §8 and IB A3 end to end.
+> **57 cards across 10 bays.** Last landed: [[Data Security]] (2026-09-05) — the threat/defence game the boards teach, then the memory-corruption attack and the ASLR wall they stop short of.
 > One line per card: what it teaches and, where settled, which syllabus rows it closes. Open the card for everything else — its frontmatter and Connections section carry the graph of what to read first.
 
 **Reading the bays.** A bay is a run of cards built in order. *Closed* bays cover their syllabus stretch end to end; *open* bays are still growing, and the italic line under each names what comes next (a link that leads nowhere yet is a card still to be written). 💎 marks enrichment beyond every syllabus. Board codes: 0478 = Cambridge IGCSE, 9618 = Cambridge A Level, AP CSA = AP Computer Science A.
@@ -13,7 +13,7 @@ See also: [[Mathematics/Directory|Mathematics]] · [[Physics/Directory|Physics]]
 
 *The floor everything else stands on: the gates, recursion, information, and the three hard edges of the discipline — Turing, P vs NP, Gödel.*
 
-1. ****Logic Gates** *(not yet released)*** — AND/OR/NOT/NAND/NOR/XOR as circuits that compute with voltage; truth tables and symbols; NAND universality; De Morgan as the licence to swap gates. *0478 §10 · 9618 §3.2*
+1. **[[Logic Gates]]** — AND/OR/NOT/NAND/NOR/XOR as circuits that compute with voltage; truth tables and symbols; NAND universality; De Morgan as the licence to swap gates. *0478 §10 · 9618 §3.2*
 2. ****Recursion** *(not yet released)*** — base case + recursive case; tracing the call stack; factorial, Fibonacci, list reversal; when recursion is the natural shape and when it costs. *9618 §19.2 · AP CSA §4.16*
 3. ****Information Theory** *(not yet released)*** — Shannon's entropy $H=-\sum p\log_2 p$ as surprise measured in bits, and the floor under every lossless compressor. 💎
 4. ****The Turing Test** *(not yet released)*** — the Imitation Game as a burden-of-proof flip; Turing's nine pre-answered objections; ELIZA and over-attribution; Searle's Chinese Room. 💎
@@ -45,7 +45,7 @@ See also: [[Mathematics/Directory|Mathematics]] · [[Physics/Directory|Physics]]
 
 *How numbers, text, images and sound become bits. 0478 §1 and 9618 §1 complete, plus 9618 §13.1 and §13.3.*
 
-1. ****Number Bases** *(not yet released)*** — place value as the one rule behind binary, denary and hex; conversions both ways; why base 2 and why base 16. *0478 §1.1.1–2 · 9618 §1.1*
+1. **[[Number Bases]]** — place value as the one rule behind binary, denary and hex; conversions both ways; why base 2 and why base 16. *0478 §1.1.1–2 · 9618 §1.1*
 2. ****Two's Complement** *(not yet released)*** — signed integers as wraparound turned into a feature: a register is arithmetic mod $2^n$, so subtraction becomes addition on one adder. *0478 §1.1.6*
 3. ****Overflow and Underflow** *(not yet released)*** — the same wraparound as the villain: detection by carry bits, and the famous bugs (Pac-Man 256, Gangnam Style, Y2038, Ariane 5). *0478 §1.1.4*
 4. ****Bitwise Operations** *(not yet released)*** — AND/OR/XOR/NOT applied bit-parallel; masking to test, set, clear and toggle; logical vs arithmetic shifts. *0478 §1.1.5*
@@ -56,7 +56,7 @@ See also: [[Mathematics/Directory|Mathematics]] · [[Physics/Directory|Physics]]
 9. ****Sound Encoding** *(not yet released)*** — sample rate and resolution as the two dials in time; Nyquist–Shannon, aliasing, and why 44,100 Hz.
 10. ****Compression** *(not yet released)*** — can you get the original back? RLE with its honest edge, Huffman on MISSISSIPPI, dictionary methods; lossy as a deal with your senses.
 11. ****User-Defined Data Types** *(not yet released)*** — a type as allowed values + operations; non-composite (enumerated, pointer) vs composite (set, record, class), each in real Python. *9618 §13.1*
-12. ****Storage Units (Vocab)** *(not yet released)*** — kilo/mega/giga vs KiB/MiB/GiB, why $2^{10}\approx10^3$ bred the confusion, and file-size arithmetic for images and sound. *0478 §1.3.1–2*
+12. **[[Storage Units (Vocab)]]** — kilo/mega/giga vs KiB/MiB/GiB, why $2^{10}\approx10^3$ bred the confusion, and file-size arithmetic for images and sound. *0478 §1.3.1–2*
 
 ## Hardware Systems (13 — closed)
 
@@ -108,6 +108,14 @@ See also: [[Mathematics/Directory|Mathematics]] · [[Physics/Directory|Physics]]
 2. ****SQL** *(not yet released)*** — DDL and DML with every paper statement run for real in SQLite (script beside the card); the FROM-first execution order that explains WHERE vs HAVING; joins, GROUP BY, nested queries; the injection attack and the parameterised query. *0478 §9.2 · 9618 §8.3 · IB A3.3*
 3. ****NoSQL and Distributed Data** *(not yet released)*** — the four families, sharding and replication, the CAP theorem proved in one paragraph, ACID vs BASE, 12306 and OceanBase, data warehouses and OLAP, and the NewSQL swing back. *IB A3.4 (HL) · 💎 for Cambridge*
 
+## Security (1 — open)
+
+*The threat/defence game, and the mechanism under the word "hacking". 0478 §5.3, 9618 §6, IB A2.4 — one real Paper 1 each against its scheme.*
+
+1. ****Data Security** *(not yet released)*** — security/privacy/integrity; every threat as mechanism → aim → property (malware, phishing vs pharming, brute-force, DDoS, social engineering); the defences with the *how*; validation vs verification (valid ≠ true); a crack-time chart; and Beyond, the buffer overflow with the three walls — canary, NX, ASLR — and why a hack-lab turns ASLR off. *0478 §5.3 · 9618 §6.1–6.2 · IB A2.4*
+
+*Next in the bay: [[Encryption]] (0478 §2.3 · 9618 §17 · IB A2.4) and the ethics/privacy law card.*
+
 ## Data Transmission (1 — open)
 
 *0478 Section 2. The first of its three subsections is written.*
@@ -123,7 +131,7 @@ Each closes rows across 0478, 9618 and AP CSA at once.
 - **Programming foundations** — variables, selection, iteration, procedures and functions, scope. *0478 §8 · 9618 §11 · AP CSA U2*
 - ****Object-Oriented Programming** *(not yet released)*** — classes, objects, encapsulation, inheritance, polymorphism. *9618 · AP CSA U1/U3*
 - **Networks and the internet** — protocol stack, packets, addressing, the web. *0478 §2/§5 · 9618 §2/§14*
-- **Security and ethics** — encryption, integrity, privacy, professional ethics. *0478 §6 · 9618 §6/§7/§17*
+- **Ethics and encryption** — professional ethics, ownership, and the encryption depth ([[Encryption]]). *0478 §7 · 9618 §7/§17*
 - **Artificial intelligence** — the 9618 §18 unit; cross-links **Information Theory** *(not yet released)*.
 - **Hardware enrichment** 💎 — [[Arithmetic Logic Unit]], [[How a Chip Is Made]], the modern CPU vs the textbook model, the GPU from triangles to tensors.
 

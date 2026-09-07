@@ -10,10 +10,23 @@ not a claim that the point is unimportant. Ask your tutor (or the AI reading thi
 vault) to search the cards before concluding anything is missing: the same content
 is often taught under a different heading.
 
-> **Edition** `student-2026-09-02` · built 2026-09-04 from commit `47b4330` + uncommitted changes  
-> 319 cards · 348 diagrams · 50 explainers · 91 illustrations
+> **Edition** `student-2026-09-02` · built 2026-09-07 from commit `07e296d` + uncommitted changes  
+> 325 cards · 360 diagrams · 51 explainers · 97 illustrations
 
 ---
+
+## Cambridge IGCSE 0478 Computer Science
+
+*6 syllabus points · 6 card references*
+
+| Syllabus point | Cards |
+|---|---|
+| 1.1 | [[Number Bases]] |
+| 1.3 | [[Storage Units (Vocab)]] |
+| 10.1 | [[Logic Gates]] |
+| 10.2 | [[Logic Gates]] |
+| 10.3 | [[Logic Gates]] |
+| 10.4 | [[Logic Gates]] |
 
 ## Cambridge IGCSE 0580 Mathematics (Extended)
 
@@ -170,7 +183,7 @@ is often taught under a different heading.
 
 ## Cambridge IGCSE 0625 Physics
 
-*14 syllabus points · 34 card references*
+*15 syllabus points · 35 card references*
 
 | Syllabus point | Cards |
 |---|---|
@@ -186,6 +199,7 @@ is often taught under a different heading.
 | 1.7 | [[Work, Energy and Power]] |
 | 2.2 | [[Specific Heat Capacity]] |
 | 4.2 | [[Electric Current]], [[Resistance]] |
+| 4.3 | [[Kirchhoff's Laws]] |
 | 4.5 | [[Electromagnetic Induction]], [[Lorentz Force]] |
 | 6.1 | [[Gravitational Fields]] |
 
@@ -324,9 +338,19 @@ is often taught under a different heading.
 | S8 | [[Scatter Diagrams]] |
 | S9 | [[Probability Basics]] |
 
+## Cambridge A-Level 9618 Computer Science
+
+*3 syllabus points · 4 card references*
+
+| Syllabus point | Cards |
+|---|---|
+| 1.1 | [[Number Bases]], [[Storage Units (Vocab)]] |
+| 3.2 | [[Logic Gates]] |
+| 15.2 | [[Logic Gates]] |
+
 ## Cambridge A-Level 9702 Physics
 
-*40 syllabus points · 57 card references*
+*41 syllabus points · 58 card references*
 
 | Syllabus point | Cards |
 |---|---|
@@ -347,6 +371,7 @@ is often taught under a different heading.
 | 9.1 | [[Electric Current]] |
 | 9.2 | [[Resistance]] |
 | 9.3 | [[Resistance]] |
+| 10.2 | [[Kirchhoff's Laws]] |
 | 12.1 | [[Circular Motion]] |
 | 12.2 | [[Circular Motion]] |
 | 13.1 | [[Gravitational Fields]] |
@@ -373,11 +398,11 @@ is often taught under a different heading.
 
 ## Cambridge A-Level 9709 Mathematics
 
-*38 syllabus points · 93 card references*
+*38 syllabus points · 95 card references*
 
 | Syllabus point | Cards |
 |---|---|
-| 1.1 | [[Completing the Square]], [[Quadratic Equations]] |
+| 1.1 | [[Completing the Square]], [[Quadratic Equations]], [[Quadratic Inequalities]], [[Simultaneous Equations (Vocab)]] |
 | 1.2 | [[Composite Function]], [[Function]], [[Graphs of Functions]], [[Inverse Function]] |
 | 1.3 | [[Coordinate Geometry of the Circle]], [[Equation of a Straight Line (Vocab)]], [[Gradient (Vocab)]], [[Length and Midpoint (Vocab)]], [[Linear Graphs (Vocab)]] |
 | 1.4 | [[Radians]] |
@@ -510,6 +535,14 @@ is often taught under a different heading.
 | Syllabus point | Cards |
 |---|---|
 | HL.5.19 | [[Maclaurin Series]] |
+
+## IB Computer Science
+
+*1 syllabus point · 2 card references*
+
+| Syllabus point | Cards |
+|---|---|
+| A1.2 | [[Logic Gates]], [[Number Bases]] |
 
 ## IB Physics
 

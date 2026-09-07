@@ -5,24 +5,24 @@ written for international curricula: Cambridge IGCSE and A-Level, IB, and AP.
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-> **Edition** `student-2026-09-02` · built 2026-09-04 from commit `47b4330` + uncommitted changes  
-> 319 cards · 348 diagrams · 50 explainers · 91 illustrations
+> **Edition** `student-2026-09-02` · built 2026-09-07 from commit `07e296d` + uncommitted changes  
+> 325 cards · 360 diagrams · 51 explainers · 97 illustrations
 
 ---
 
 ## What's inside
 
-**319 Markdown cards** across five collections, plus the figures that go with them —
-**348 SVG diagrams** (many animated), **50 MP4 explainers**, and
-**91 illustrations and comics**.
+**325 Markdown cards** across five collections, plus the figures that go with them —
+**360 SVG diagrams** (many animated), **51 MP4 explainers**, and
+**97 illustrations and comics**.
 
 | Folder | Cards | What it is |
 |---|---|---|
 | `Mathematics/` | 220 | Number, Algebra, Geometry, Trigonometry, Calculus, Statistics, Probability, Functions, Combinatorics, Linear Algebra, Coordinate Geometry, Measurement, Foundations, Problem Solving — plus formula-sheet references. |
-| `Physics/` | 45 | Mechanics, Foundations (measurement), Thermal, Fields, Electricity, Oscillations, Waves, Modern, Astronomy, Medical. |
-| `CS/` | 1 | Foundations, Logic Circuits, Algorithms, Data Representation, Hardware Systems, Systems Software, Data Structures. |
-| `Stories/` | 40 | Fun-first historical narratives — the human drama of mathematics and science as its own subject. |
-| `Meta/` | 13 | Methodology cards: how to *think* across domains. |
+| `Physics/` | 46 | Mechanics, Foundations (measurement), Thermal, Fields, Electricity, Oscillations, Waves, Modern, Astronomy, Medical. |
+| `CS/` | 4 | Foundations, Logic Circuits, Algorithms, Data Representation, Hardware Systems, Systems Software, Data Structures. |
+| `Stories/` | 41 | Fun-first historical narratives — the human drama of mathematics and science as its own subject. |
+| `Meta/` | 14 | Methodology cards: how to *think* across domains. |
 
 Every concept appears in **both English and Chinese**, with key terminology anchored in each
 card's **中文锚点** section.

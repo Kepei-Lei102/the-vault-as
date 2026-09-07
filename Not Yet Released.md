@@ -3,8 +3,8 @@
 > These cards **exist** and are written. They are simply not part of your
 > course yet — they arrive as we reach them.
 
-> **Edition** `student-2026-09-02` · built 2026-09-04 from commit `47b4330` + uncommitted changes  
-> 319 cards · 348 diagrams · 50 explainers · 91 illustrations
+> **Edition** `student-2026-09-02` · built 2026-09-07 from commit `07e296d` + uncommitted changes  
+> 325 cards · 360 diagrams · 51 explainers · 97 illustrations
 
 ---
 
@@ -36,6 +36,7 @@ the agent reading this vault knows the difference.
 - Clock Domains and Metastability
 - Compilers and Interpreters
 - Compression
+- Data Security
 - Embedded Systems
 - Error Detection and Correction
 - File Handling
@@ -52,9 +53,7 @@ the agent reading this vault knows the difference.
 - Interrupt Handling
 - Karnaugh Maps
 - Linked List
-- Logic Gates
 - NoSQL and Distributed Data
-- Number Bases
 - Object-Oriented Programming
 - Operating Systems
 - Overflow and Underflow
@@ -72,7 +71,6 @@ the agent reading this vault knows the difference.
 - Sorting
 - Sound Encoding
 - Stacks and Queues
-- Storage Units (Vocab)
 - Text Encoding
 - The Turing Test
 - Turing Machine

@@ -1,6 +1,6 @@
 # The Vault — Physics Directory
 
-> **44 cards across 7 bays.** Last landed: [[Linear Motion under a Variable Force]] (2026-09-02) — 9231 Further Mechanics §3.5 closed, and with it **the whole 9231 board: 24/24**.
+> **45 cards across 7 bays.** Last landed: [[Kirchhoff's Laws]] (2026-09-04) — two conservation laws said about a wire; opens the 9702 §10 circuits run.
 > One line per card: what it teaches and, where settled, which syllabus rows it closes. Open the card for the derivations, the worked papers, and the graph of what to read first.
 
 **Reading the bays.** Bays follow the Cambridge 9702 chapter structure. *Closed* bays cover their stretch end to end; *open* bays are still growing, and the italic line under each names what comes next (a link that leads nowhere yet is a card still to be written). 💎 marks enrichment beyond every syllabus. Board codes: 0625 = Cambridge IGCSE, 9702 = Cambridge A Level, 9709/9231 = the Cambridge maths boards whose mechanics papers these cards also serve, IB = IB Physics, AP-1 / AP-2 / AP-C = the AP Physics courses.
@@ -71,12 +71,13 @@ See also: [[Mathematics/Directory|Mathematics]] · [[CS/Directory|Computer Scien
 
 *Left in the bay: thermometric properties (9702 §14.1) and thermal radiation (IB B.2).*
 
-## Electricity (2 — open)
+## Electricity (3 — open)
 
 1. **[[Electric Current]]** — charge as the bottom of the tower; current as a rate; $I = nAvq$ by the slab count and the drift-velocity shock. *9702 §9.1 · 0625 §4.2*
 2. **[[Resistance]]** — $V = IR$ is a definition, Ohm's law is an empirical claim: the four $I$–$V$ characteristics, resistivity, p.d. vs e.m.f. *9702 Topic 9 closed*
+3. **[[Kirchhoff's Laws]]** — the junction rule is charge conservation, the loop rule is energy conservation; series and parallel derived from them; six real exam circuits (Cambridge, AP C E&M, IGCSE); the coulomb walks the potential hill. *9702 §10.2 · 0625 §4.3.2 · AP-2/AP-C §11.5–11.7*
 
-*Next in the bay: [[Kirchhoff's Laws]] and the series/parallel rules, [[Internal Resistance]], [[Potential Dividers]] (9702 §10 · 0625 §4.3–4.4); then [[Alternating Current]] (9702 §21).*
+*Next in the bay: [[Internal Resistance]] and [[Potential Dividers]] (9702 §10.1, §10.3 · 0625 §4.3.3–4.4); then [[Alternating Current]] (9702 §21).*
 
 ## Fields (4 — open)
 

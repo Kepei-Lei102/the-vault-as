@@ -1,6 +1,6 @@
 # The Vault — Meta Directory
 
-> **12 cards.** Last landed: [[Decouple and Recouple]] (2026-09-03) — coupling is an axis, not a sin; and the recoupling that makes new things is usually forced by a constraint.
+> **13 cards.** Last landed: [[The True IO Bound]] (2026-09-07) — the slow step is never the thinking but the moving of data: into the machine, into the head, and past the self.
 > Cards whose subject is *how to think across domains* — methods that apply to mathematics, physics, computer science and ordinary life alike. One line per card; the card carries the argument.
 
 See also: [[Mathematics/Directory|Mathematics]] · [[Physics/Directory|Physics]] · [[CS/Directory|Computer Science]] · [[Stories/Directory|Stories]].
@@ -23,10 +23,11 @@ See also: [[Mathematics/Directory|Mathematics]] · [[Physics/Directory|Physics]]
 
 1. **[[Inertia and Bootstrapping]]** — Newton's First Law as a literal description of the nervous system: static vs kinetic friction, activation energy, cold starts, and task initiation.
 
-## Vault Philosophy (2)
+## Vault Philosophy (3)
 
 1. **[[The Love of Wisdom]]** 爱智慧 — philosophy is the *love* of wisdom, not its possession: Diotima's Eros as the in-between who knows it lacks and therefore reaches.
 2. **[[The Gift of the Gradient]]** 梯度的礼物 — the hope-lesson read out of the second law: what matters is not the amount of disorder but whether a difference is left to fall through.
+3. **[[The True IO Bound]]** 真正的 I/O 瓶颈 — a ladder of I/O bounds: the chip waiting for bytes, the four-slot working memory, and the ego's filter that drops exactly the highest-value packets; why this vault is external memory plus an anti-filter.
 
 ---
 
