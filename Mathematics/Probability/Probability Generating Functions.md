@@ -14,7 +14,6 @@ tags:
   - domain/statistics
   - level/A-Level
   - curriculum/Cambridge-9231
-  - curriculum/A-Level
   - syllabus/9231-4-5
   - type/deep
   - type/technique

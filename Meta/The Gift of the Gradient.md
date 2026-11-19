@@ -4,7 +4,8 @@ prerequisites:
   - "[[Entropy and the Second Law]]"
   - "[[Inertia and Bootstrapping]]"
   - "[[The Love of Wisdom]]"
-leads_to: []
+leads_to:
+  - "[[God Syndrome]]"
 tags:
   - subject/methodology
   - subject/physics
@@ -13,6 +14,7 @@ tags:
   - misconception/entropy-means-doom
   - misconception/entropy-is-disorder
   - misconception/life-fights-entropy
+  - type/methodology
 ---
 
 # The Gift of the Gradient  梯度的礼物
@@ -107,5 +109,5 @@ You are a beautiful, brief, improbable structure the universe is making on its w
 - **[[Inertia and Bootstrapping]]** — the sibling reading of thermodynamics as a life lesson: the activation hump you must climb to *start* anything. Together — the hump to begin (Inertia) and the slope that carries you once you have (the gradient) — they are the physics of getting a life into motion.
 - **[[The Love of Wisdom]]** — the keystone: meaning lives in the *lack* that reaches, not in completion. Here is its physical twin — meaning lives in the *gradient* that falls, not in the even end. A universe with no lack, like a universe with no difference, would have nothing left to want and nothing left to do.
 - **[[Stories/Boltzmann's Tombstone]]** — the man who first read the second law as overwhelming odds rather than decree, and the recurrence time that says even the frozen calm is not quite forever.
-- ****Information Theory** *(not yet released)*** — the same entropy, counted in bits; a gradient of *information* (a surprise, a difference from expectation) is the informational form of the same hope.
+- **[[Information Theory]]** — the same entropy, counted in bits; a gradient of *information* (a surprise, a difference from expectation) is the informational form of the same hope.
 - **[[Heisenberg Uncertainty Principle]]** — the law that forbids perfect stillness, so the vacuum keeps trembling even at absolute zero and even at heat death: the deepest floor under *"there is always hope,"* and the reason a dead-even universe can still flicker a new one into being.

@@ -19,7 +19,6 @@ tags:
   - level/pre-IB
   - level/pre-AP
   - curriculum/Cambridge-0606
-  - curriculum/A-Level
   - syllabus/0606-3-1
   - syllabus/0606-3-2
   - syllabus/0606-3-3
@@ -34,6 +33,7 @@ tags:
   - notation/polynomial
   - misconception/sign-in-divisor
   - misconception/skipping-missing-terms
+  - type/deep
 ---
 
 # Remainder and Factor Theorems 余式定理与因式定理
@@ -67,11 +67,11 @@ The Factor Theorem then says: if that remainder is zero, $(x - a)$ divided evenl
 
 ### 中文锚点
 
-**余式定理**：多项式 $f(x)$ 除以 $(x - a)$ 的余数等于 $f(a)$。不需要做长除法，代入即可。
+想知道 91 能不能被 7 整除，你不会摆开竖式，而是试着除一下，看余数。多项式有一个更省事的试法：想知道 $f(x)$ 除以 $(x - 3)$ 剩下什么，直接算 $f(3)$ 就行。为什么代一个数进去就能顶替整个除法？因为 $f(x) = (x - 3)\,q(x) + R$ 对每一个 $x$ 都成立，而在 $x = 3$ 这一点，前面那一项恰好是零，剩下的只有 $R$。如果 $f(3) = 0$，那就是一点余数都没有：$(x - 3)$ 能把 $f(x)$ 整除，3 是一个根。所以分解三次多项式的时候，像侦探排查嫌疑人一样，把 1、−1、2、−2 挨个代进去，谁让结果为零，谁就交出一个因式。
 
-**因式定理**：$(x - a)$ 是 $f(x)$ 的因式 $\iff f(a) = 0$。这是余式定理在余数为零时的推论。
+### 术语对照
 
-这组定理是处理三次及更高次多项式的核心工具。二次方程我们有三种方法（因式分解、配方法、求根公式，见 [[Quadratic Equations]]），但三次方程没有学生会真用的公式——取而代之的是因式定理，像侦探一样一次猜一个根。
+余式定理：remainder theorem；因式定理：factor theorem；余数：remainder；因式：factor；根：root。
 
 ---
 

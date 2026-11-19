@@ -18,8 +18,6 @@ tags:
   - level/university
   - level/life
   - type/methodology
-  - type/meta
-  - type/philosophical
   - type/cross-domain
   - misconception/philosophy-is-having-answers
   - misconception/incompleteness-is-only-loss

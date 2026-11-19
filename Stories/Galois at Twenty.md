@@ -162,7 +162,7 @@ That is the Galois idea in a plastic toy: **the group decides what is reachable.
 
 ### The cash-out he never saw
 
-In an 1830 paper on number theory, Galois also built the **finite fields** now called **Galois fields**, $\mathrm{GF}(p^n)$ — arithmetic on a finite set that still behaves like the rationals. He had no possible use for them. Today they are everywhere the CS half of this vault lives: every QR code, CD, DVD, and deep-space transmission is protected by **Reed–Solomon error-correction** *(not yet released)* built on $\mathrm{GF}(2^8)$, and the AES cipher encrypting your traffic does its mixing in the same field. A construction with *no application in 1830* is the quiet arithmetic under the internet, and the same information-counting logic that runs through **Information Theory** *(not yet released)*. And the symmetry groups he opened now name the deepest structures in physics — the gauge groups of the Standard Model are Galois's idea grown to describe the forces of nature.
+In an 1830 paper on number theory, Galois also built the **finite fields** now called **Galois fields**, $\mathrm{GF}(p^n)$ — arithmetic on a finite set that still behaves like the rationals. He had no possible use for them. Today they are everywhere the CS half of this vault lives: every QR code, CD, DVD, and deep-space transmission is protected by **Reed–Solomon error-correction** *(not yet released)* built on $\mathrm{GF}(2^8)$, and the AES cipher encrypting your traffic does its mixing in the same field. A construction with *no application in 1830* is the quiet arithmetic under the internet, and the same information-counting logic that runs through [[Information Theory]]. And the symmetry groups he opened now name the deepest structures in physics — the gauge groups of the Standard Model are Galois's idea grown to describe the forces of nature.
 
 ---
 
@@ -188,7 +188,7 @@ In an 1830 paper on number theory, Galois also built the **finite fields** now c
 - [[Forward Reading and Problem Discovery]] — Galois's founding move ("which symmetries leave every relation invariant?") is the hunter's "what doesn't change?" made into a whole theory. The deepest bridge of them all.
 - [[Stories/The Argument for i]] — cites the same Rothman (1982) myth-correction that anchors the honest edge above; and the cubic formula whose casus irreducibilis births $i$ is the equation whose *symmetries* Galois studies.
 - [[Stories/Stigler's Law of Eponymy]] — Ruffini (1799) proved the quintic unsolvable a quarter-century before Abel, and the theorem still leads with Abel's name.
-- **Information Theory** *(not yet released)* — the CS half of the vault; Galois fields $\mathrm{GF}(2^n)$ are the arithmetic under **Reed–Solomon codes** *(not yet released)* and AES: the abstract twenty-year-old's toy running the modern internet.
+- [[Information Theory]] — the CS half of the vault; Galois fields $\mathrm{GF}(2^n)$ are the arithmetic under **Reed–Solomon codes** *(not yet released)* and AES: the abstract twenty-year-old's toy running the modern internet.
 
 ---
 

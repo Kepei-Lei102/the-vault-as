@@ -51,7 +51,7 @@ Picture the problem an RTS faces on a network. Eight players, each commanding hu
 
 The RTS answer, written down by *Age of Empires*' Mark Terrano and Paul Bettner in their 2001 talk **"1500 Archers on a 28.8"**, inverts it. Don't send the *state*; send the **commands**. A player issues only a handful of clicks per second — *select these twelve units, attack-move there*. That is a trickle of data. Ship just the commands, and let **every machine run the identical simulation** from the identical starting point. If the simulations are truly identical, all eight machines independently arrive at the very same thousand-unit battle, having agreed on almost nothing but the clicks. This is **deterministic lockstep**.
 
-> This is, quietly, a compression scheme of the kind **Information Theory** *(not yet released)* describes. The full game state is *reconstructible* from the command stream plus the fixed rules of the game, so the commands **are** the compressed representation — kilobytes of clicks standing in for a world of units. It is also why an hour-long replay file is tiny: it stores your clicks, not your battles, and re-derives everything else by replaying the simulation.
+> This is, quietly, a compression scheme of the kind [[Information Theory]] describes. The full game state is *reconstructible* from the command stream plus the fixed rules of the game, so the commands **are** the compressed representation — kilobytes of clicks standing in for a world of units. It is also why an hour-long replay file is tiny: it stores your clicks, not your battles, and re-derives everything else by replaying the simulation.
 
 But the bargain has a merciless clause. *"Identical"* means **bit-for-bit identical, on every machine, forever.** Let one machine compute a unit's position one ten-thousandth differently — a floating-point rounding that reorders, a random number drawn in a different sequence — and from that tick on, the two worlds drift apart. One player sees the marine live; another sees it die. The game calls this a **desync**, and there is no recovering: the match simply ends.
 
@@ -98,7 +98,7 @@ Two more honest edges. **"Dual-Core Craft" is a meme that flatters itself with p
 
 - **The pedagogical home:** **Parallel and External Sorting** *(not yet released)* — *parallelism changes time, not work, and only when the work is independent.* This Story is that card's thesis dressed in a Zerg costume: the RTS simulation is the canonical **dependent** workload, and Amdahl's law is the verdict.
 - **The next card it foreshadows:** **Pipelining and Simultaneous Multithreading** *(not yet released)* — *why* a single fast core can do so much (and why ECS's packed arrays feed it so well) is the pipeline-and-SMT story.
-- **The compression insight:** **Information Theory** *(not yet released)* — lockstep ships commands, not state, because the commands are the compressed representation of the world.
+- **The compression insight:** [[Information Theory]] — lockstep ships commands, not state, because the commands are the compressed representation of the world.
 - **The eponymy footnote:** [[Stories/Stigler's Law of Eponymy]] — "Overwatch's ECS" as a textbook case of a pattern named for its popularizer, not its inventor.
 - **A sibling technology-history Story:** [[Stories/The Boolean-to-Silicon Bridge]] — the other "an idea becomes the infrastructure we live inside" arc.
 

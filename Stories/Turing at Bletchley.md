@@ -35,7 +35,7 @@ tags:
 - **Joan Clarke** (1917–1996) — brilliant cryptanalyst in Hut 8, one of the few women promoted to the technical core; briefly engaged to Turing. A reminder that Bletchley was ~10,000 people, roughly three-quarters of them women.
 - **Tommy Flowers** (1905–1998) & **Max Newman** (1897–1984) — built **Colossus**, the first programmable electronic digital computer — for a *different* cipher (Lorenz), **not** Enigma, and **not** by Turing. The films get this wrong.
 - **I. J. (Jack) Good** (1916–2009) — Turing's statistical assistant; later spelled out that Banburismus was **Bayesian inference**, decades before it was respectable.
-- **Claude Shannon** (1916–2001) — met Turing over tea at Bell Labs in 1943; the two swapped ideas about thinking machines while building wartime secure-speech systems. (The maths is in **Information Theory** *(not yet released)*.)
+- **Claude Shannon** (1916–2001) — met Turing over tea at Bell Labs in 1943; the two swapped ideas about thinking machines while building wartime secure-speech systems. (The maths is in [[Information Theory]].)
 
 ## 中文锚点
 
@@ -81,7 +81,7 @@ Turing's **Bombe** (an electromechanical machine, descended in name from the Pol
 
 Turing wasn't content to let the Bombe grind blindly; he wanted to point it at the *most likely* settings first. So he invented **Banburismus** (named for Banbury, the town that printed the long paper sheets the method used). For each guess about the German settings he kept a running tally of the **weight of evidence** — how much each new intercept made a hypothesis more or less likely — and only committed Bombe time once the evidence crossed a threshold.
 
-The unit he used for that weight of evidence he called the **ban** (and its tenth, the **deciban** — about the smallest change in belief a person can notice). A ban is one *base-10* unit of information — the same quantity Shannon would soon measure in **bits**, just in a different base (**Information Theory** *(not yet released)* has the maths). Turing's assistant **I. J. Good** later made the secret explicit: Banburismus was **Bayesian inference** — systematically updating a probability as evidence arrives — run as an industrial process years before mainstream statisticians would touch Bayes' methods. The war birthed practical Bayesian statistics, and then classified it for thirty years.
+The unit he used for that weight of evidence he called the **ban** (and its tenth, the **deciban** — about the smallest change in belief a person can notice). A ban is one *base-10* unit of information — the same quantity Shannon would soon measure in **bits**, just in a different base ([[Information Theory]] has the maths). Turing's assistant **I. J. Good** later made the secret explicit: Banburismus was **Bayesian inference** — systematically updating a probability as evidence arrives — run as an industrial process years before mainstream statisticians would touch Bayes' methods. The war birthed practical Bayesian statistics, and then classified it for thirty years.
 
 ### Act V — The other machine (and who really built it)
 
@@ -91,7 +91,7 @@ Here is the honest edge the movies smear: **Colossus was not Turing's machine, a
 
 ### Act VI — Tea with Shannon (1943)
 
-Sent to America to liaise on cryptography, Turing spent the winter of 1942–43 at **Bell Labs**, working on enciphered speech. There he took tea with a young researcher named **Claude Shannon**. Neither could discuss his classified work, so they talked about something else: whether a machine could *think*. Shannon, by his own later account, was struck by Turing's certainty that it could. Five years later Shannon would publish information theory; the deeper biographical arc of that meeting lives in [[Stories/The Boolean-to-Silicon Bridge]] and **Information Theory** *(not yet released)*. Two of the century's defining minds, in one room, talking about the future they were both about to build.
+Sent to America to liaise on cryptography, Turing spent the winter of 1942–43 at **Bell Labs**, working on enciphered speech. There he took tea with a young researcher named **Claude Shannon**. Neither could discuss his classified work, so they talked about something else: whether a machine could *think*. Shannon, by his own later account, was struck by Turing's certainty that it could. Five years later Shannon would publish information theory; the deeper biographical arc of that meeting lives in [[Stories/The Boolean-to-Silicon Bridge]] and [[Information Theory]]. Two of the century's defining minds, in one room, talking about the future they were both about to build.
 
 ### Act VII — The imitation game (1950)
 
@@ -129,7 +129,7 @@ He might have found the present fitting. A microprocessor architecture now carri
 
 ## Where this surfaces in the vault
 
-- ****Information Theory** *(not yet released)*** — the *ban* and *deciban* (Turing's base-10 information unit) and the SIGSALY / Turing–Shannon Bell Labs meetings are referenced there; this card is their narrative home.
+- **[[Information Theory]]** — the *ban* and *deciban* (Turing's base-10 information unit) and the SIGSALY / Turing–Shannon Bell Labs meetings are referenced there; this card is their narrative home.
 - **[[Stories/The Boolean-to-Silicon Bridge]]** — Turing's 1936 universal machine as the *machine* counterpart to Sheffer's *operator* universality; the computing lineage that runs from there to Anthropic's **Claude**.
 - ****Recursion** *(not yet released)*** — the Church–Turing thesis and computability; the universal machine sits behind every recursive program. The **halting problem** (the full diagonal proof is in **Turing Machine** *(not yet released)*) is the dark twin of universality.
 - **[[Conditional Probability]]** — Banburismus was Bayesian updating in disguise; the war secretly industrialised Bayes' theorem decades before statisticians embraced it.

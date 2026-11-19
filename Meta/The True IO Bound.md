@@ -9,6 +9,7 @@ leads_to:
   - "[[The Love of Wisdom]]"
   - "[[The Feynman Technique]]"
   - "[[Compression Is Intelligence]]"
+  - "[[Humans Are Story Animals]]"
 tags:
   - subject/methodology
   - subject/philosophy
@@ -18,7 +19,6 @@ tags:
   - domain/learning
   - level/life
   - type/methodology
-  - type/meta
   - type/cross-domain
 ---
 
@@ -104,7 +104,7 @@ Human thinking is not slow. A chess master glances at a board and *sees* the goo
 
 The compute is fast. The cache is the problem. **George Miller** (1956) put the capacity of immediate memory at seven items, plus or minus two; modern work — Nelson Cowan's 2001 review is the standard reference — finds the honest number closer to **four chunks**, and finds it *decays in about twenty seconds* unless you keep rehearsing it. Four slots, twenty seconds. That is the L1 cache of the human mind, and it is the reason a phone number is spoken in groups, a proof is remembered as three moves rather than thirty lines, and a student who reads a question once and looks away has already lost the second condition.
 
-The one lever is **chunking**. Chase and Simon (1973) showed chess masters a real position for five seconds and they reconstructed most of the board; novices managed a handful of pieces. Then they showed *random* positions — same pieces, no chess sense — and the masters fell to the novices' level. The cache had not grown; the *unit* had. A master's slot holds "castled king's side with a fianchettoed bishop", a novice's holds "a knight on f3". Expertise is chunking: it is the compression of **Information Theory** *(not yet released)* applied to your own cache, so that four slots hold a whole position.
+The one lever is **chunking**. Chase and Simon (1973) showed chess masters a real position for five seconds and they reconstructed most of the board; novices managed a handful of pieces. Then they showed *random* positions — same pieces, no chess sense — and the masters fell to the novices' level. The cache had not grown; the *unit* had. A master's slot holds "castled king's side with a fianchettoed bishop", a novice's holds "a knight on f3". Expertise is chunking: it is the compression of [[Information Theory]] applied to your own cache, so that four slots hold a whole position.
 
 ![[true-io-bound-chess.png|760]]
 
@@ -137,7 +137,7 @@ Evolution built minds for survival in groups, and in a group the self you *prese
 
 ### What it drops
 
-The trouble is the *selectivity*. A random filter would cost you a fraction of everything. This one preferentially drops one class of packet — **the ones that contradict the self-narrative** — and those are the packets with the highest information content in the stream. **Information Theory** *(not yet released)* says it exactly: the surprise of a message is $-\log_2 p$, so the packet you *expected* carries nearly nothing, and the packet you did not is the only one worth the bandwidth. The filter throws away the traffic in order of value, highest first.
+The trouble is the *selectivity*. A random filter would cost you a fraction of everything. This one preferentially drops one class of packet — **the ones that contradict the self-narrative** — and those are the packets with the highest information content in the stream. [[Information Theory]] says it exactly: the surprise of a message is $-\log_2 p$, so the packet you *expected* carries nearly nothing, and the packet you did not is the only one worth the bandwidth. The filter throws away the traffic in order of value, highest first.
 
 Three demonstrations, none of them about anyone you know:
 
@@ -263,7 +263,7 @@ One last honesty, so the card does not overclaim. [[Hypothesis Tests]] teaches t
    - [[The Feynman Technique]] — the *interpret* pass as the everyday anti-filter: what cannot be rebuilt on paper was never received.
    - [[Compression Is Intelligence]] — the sibling card: that one is about the codec, this one is about the dropped packets. Prediction compresses; projection deletes.
 
-- **Cross-domain:** **Von Neumann machine** *(not yet released)* — Backus's bottleneck, where the machine half of this card begins; **Information Theory** *(not yet released)* — surprise as $-\log_2 p$, the measure by which the filter's discards are the most valuable traffic; **Sensors and Control Systems** *(not yet released)* — negative feedback as the only stable loop, the echo chamber as the positive-feedback failure, and the RLHF corollary; [[Hypothesis Tests]] — "we accept" as the priced stop that distinguishes a scientist's end-of-trace from the filter's; [[The Bookbinder's Apprentice]] — Faraday's request for a translation back into common language; [[Chain of Thought]] — naming the tool as chunking; [[Fun Is the Brachistochrone]] — the same vault philosophy from the motivation side: that card is why a student *wants* to hunt, this one is what stops the prey from arriving.
+- **Cross-domain:** **Von Neumann machine** *(not yet released)* — Backus's bottleneck, where the machine half of this card begins; [[Information Theory]] — surprise as $-\log_2 p$, the measure by which the filter's discards are the most valuable traffic; **Sensors and Control Systems** *(not yet released)* — negative feedback as the only stable loop, the echo chamber as the positive-feedback failure, and the RLHF corollary; [[Hypothesis Tests]] — "we accept" as the priced stop that distinguishes a scientist's end-of-trace from the filter's; [[The Bookbinder's Apprentice]] — Faraday's request for a translation back into common language; [[Chain of Thought]] — naming the tool as chunking; [[Fun Is the Brachistochrone]] — the same vault philosophy from the motivation side: that card is why a student *wants* to hunt, this one is what stops the prey from arriving.
 
 - **Misconception traps cleared:** faster CPU means faster computer; working memory is trainable in size; notes are a crutch; confirmation bias is carelessness; memory is a recording; hallucination is a machine-only defect.
 

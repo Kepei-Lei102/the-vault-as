@@ -63,7 +63,7 @@ That is the whole of Act I. There was an incentive to be loud, and there was a h
 
 The compact disc arrives, and the governor is gone.
 
-A CD stores sixteen bits per sample. Those sixteen bits buy about 96 decibels of range between the loudest representable sound and the quantisation noise floor — six decibels per bit, the arithmetic worked through in **Sound Encoding** *(not yet released)*. The largest number the format can hold is called **0 dBFS**, and it is a genuinely hard ceiling: there is no number above it, so a sample cannot be louder, ever.
+A CD stores sixteen bits per sample. Those sixteen bits buy about 96 decibels of range between the loudest representable sound and the quantisation noise floor — six decibels per bit, the arithmetic worked through in [[Sound Encoding]]. The largest number the format can hold is called **0 dBFS**, and it is a genuinely hard ceiling: there is no number above it, so a sample cannot be louder, ever.
 
 Here is the trap, and it is worth reading twice, because the entire war lives in the gap between two words. **The format defends the peak. It says nothing whatever about the average.**
 
@@ -168,18 +168,18 @@ Which gives the story its real moral, sharper than "the war ended." **The treaty
 
 ## Cultural ripples
 
-- **The word "compression" does two unrelated jobs** in this story, and confusing them is the single most common misunderstanding in digital audio. *Data* compression makes a file smaller by removing redundancy (**Compression** *(not yet released)*'s territory — MP3, ZIP, JPEG). *Dynamic-range* compression makes loud parts quieter so the whole can be turned up, and changes the file's size not at all. A brickwalled master and an MP3 are two entirely different injuries; a track can suffer both, neither, or either alone.
+- **The word "compression" does two unrelated jobs** in this story, and confusing them is the single most common misunderstanding in digital audio. *Data* compression makes a file smaller by removing redundancy ([[Compression]]'s territory — MP3, ZIP, JPEG). *Dynamic-range* compression makes loud parts quieter so the whole can be turned up, and changes the file's size not at all. A brickwalled master and an MP3 are two entirely different injuries; a track can suffer both, neither, or either alone.
 - **A tragedy of the commons that actually got solved — in the rooms that agreed to measure** — is rare enough to be worth teaching for its own sake. The solution was not education, not appeals to artistry, and not regulation of behaviour: it was a standardised *measurement* everyone agreed to honour, which then made the destructive strategy pointless. The same shape appears in standardised time zones, the shipping container and the metre — and, as Act VIII shows, the same shape in reverse wherever the measurement is absent.
 - **The recording that best represents a 2008 metal album is a plastic-guitar video game.** Preservation is not always where you'd file it.
 - **Vinyl's revival gets credited with better sound,** and the physical governor of Act I is real. But a vinyl record cut from a crushed digital master inherits the crush — the format cannot give back what the master already threw away.
 
 ## Where this surfaces in the vault
 
-- ****Sound Encoding** *(not yet released)*** — dual residency, and the machinery underneath every act. Sixteen bits, six decibels per bit, ninety-six decibels of range, quantisation, and the 0 dBFS ceiling: the loudness war is that budget being spent down to single digits by choice.
+- **[[Sound Encoding]]** — dual residency, and the machinery underneath every act. Sixteen bits, six decibels per bit, ninety-six decibels of range, quantisation, and the 0 dBFS ceiling: the loudness war is that budget being spent down to single digits by choice.
 - **[[Logarithms]]** — decibels and LUFS are log scales, and the log-compression of human hearing is *why* louder wins the audition. That card carries the pedagogy; this one carries the consequences.
-- ****Compression** *(not yet released)*** — the other compression, and the disambiguation above. Also the source of the deeper irony: lossy codecs throw away what you cannot hear, while brickwall limiting throws away what you can.
+- **[[Compression]]** — the other compression, and the disambiguation above. Also the source of the deeper irony: lossy codecs throw away what you cannot hear, while brickwall limiting throws away what you can.
 - **[[Stories/One Take, Many Tracks]]** — the direct prequel, and the same boundary seen from the other side. That story ends by watching the mix *become* the composition — Kingston's dub plates, Eno's studio-as-instrument — so the mixing/mastering distinction defined in Act V above is one this card needs and that one watches dissolve.
-- ****Information Theory** *(not yet released)*** — dynamic range is channel capacity by another name. A master that uses eight decibels of a ninety-six-decibel channel is discarding bits that were already paid for and stored.
+- **[[Information Theory]]** — dynamic range is channel capacity by another name. A master that uses eight decibels of a ninety-six-decibel channel is discarding bits that were already paid for and stored.
 - **[[Credit Is the Currency]]** — the same structural lesson from the other side: what a field chooses to *measure* determines what its members do, far more reliably than what it claims to value.
 
 ## Receipts

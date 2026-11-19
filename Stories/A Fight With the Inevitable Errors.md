@@ -67,7 +67,7 @@ The machine no longer says "something is wrong". It says "**bit eleven**". And a
 
 You can see the same trick in miniature in the **parity block** on **Error Detection and Correction** *(not yet released)* — parity on the rows, parity on the columns, and the bad bit sits at the intersection of the row that failed and the column that failed. Hamming's codes are that idea done efficiently, with the guards overlapping instead of laid out in a neat rectangle.
 
-**And there was somebody down the corridor who could say what it meant.** Claude Shannon was at Bell Labs in exactly those years, assembling the paper that became *A Mathematical Theory of Communication* — the founding document of **Information Theory** *(not yet released)* — and Hamming's code appears in it. Shannon proved something almost unbelievable: for any channel, however noisy, there exists a coding scheme that gets your message through with as little error as you care to specify. He proved that such codes *exist*. He did not say how to build one.
+**And there was somebody down the corridor who could say what it meant.** Claude Shannon was at Bell Labs in exactly those years, assembling the paper that became *A Mathematical Theory of Communication* — the founding document of [[Information Theory]] — and Hamming's code appears in it. Shannon proved something almost unbelievable: for any channel, however noisy, there exists a coding scheme that gets your message through with as little error as you care to specify. He proved that such codes *exist*. He did not say how to build one.
 
 That gap — between knowing a thing is possible and knowing how to do it — is where the next fifty years of this story lives.
 
@@ -145,7 +145,7 @@ There is something worth taking out of the technical setting. Hamming's insight 
 
 - **The card underneath:** **Error Detection and Correction** *(not yet released)* — parity, the parity block, checksums, check digits and ARQ, with the parity block standing as Hamming's insight in miniature.
 - **The mathematics:** [[Symmetric Functions of Roots]] — power sums of positions nobody can see, converted into a polynomial whose roots are the damage. Worked in full there over the integers mod 11.
-- **The theory next door:** **Information Theory** *(not yet released)* — Shannon proving that good codes must exist, in the same building and the same years, while Hamming was building one.
+- **The theory next door:** [[Information Theory]] — Shannon proving that good codes must exist, in the same building and the same years, while Hamming was building one.
 - **Same distance, other purpose:** **Gray Code** *(not yet released)* — Hamming distance again, arranged so that consecutive values differ in one bit and a mistimed read is off by the smallest possible amount.
 - **Where the errors come from:** **Secondary Storage** *(not yet released)* — the physics of a scratch, a flux reversal and a floating gate, and why every storage medium is an analogue quantity with a decision boundary drawn across it.
 

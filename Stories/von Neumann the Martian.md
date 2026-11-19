@@ -126,7 +126,7 @@ The accounts of the end are hard to read. The most rational man of his century �
 - **Turing Machine** *(not yet released)* — the universal machine von Neumann made buildable; his self-replicator is a universal *constructor*, and the quine above is a cousin of the universal machine.
 - [[The Feynman Technique]] — the same interpret-vs-copy logic turned into a learning method: you understand an idea only when you can *rebuild* and *re-teach* it (knowledge that self-replicates). The methodology card this thread spun off.
 - **Sorting** *(not yet released)* — merge sort, which he wrote down first, in 1945.
-- **Information Theory** *(not yet released)* — **von Neumann entropy**, and the famous quip where he told Shannon to *"call it entropy"* (the receipt is on that card; the Boltzmann side is in [[Stories/Boltzmann's Tombstone]]).
+- [[Information Theory]] — **von Neumann entropy**, and the famous quip where he told Shannon to *"call it entropy"* (the receipt is on that card; the Boltzmann side is in [[Stories/Boltzmann's Tombstone]]).
 - [[Stories/The Boolean-to-Silicon Bridge]] — the 1945 EDVAC report in the long arc from logic to silicon.
 - [[Stories/Turing at Bletchley]] — the other founding mind of computing, and the other tragedy.
 - [[Stigler's Law of Eponymy]] — where the credit machinery lives, kept off this card's spine on purpose.

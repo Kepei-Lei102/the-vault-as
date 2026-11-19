@@ -40,7 +40,11 @@ On an exam, "sketch" almost always means: draw the correct shape, label the inte
 
 ### 中文锚点
 
-**草图 (cǎotú)** = sketch, rough drawing. **精确绘制 (jīngquè huìzhì)** = accurate plot. On a Chinese-language exam you might see 作图 (draw) or 画出 (draw out); in English "sketch" and "plot" are *different* instructions — don't treat them as synonyms.
+地铁线路图不是卫星照片。它扔掉了真实的距离和弯道，只留下乘客真正需要的东西：有哪几条线、在哪里交汇、站点的先后顺序。曲线的草图也是这样一张地图。你不是在方格纸上一点一点地量，而是把形状、与坐标轴的交点、转弯的地方、还有那些无限靠近却碰不到的直线画出来。这些特征就是"站点"：只要每一个都放对了位置并且标上了坐标，中间的线再潦草，草图也是对的。精确绘图才是那张卫星照片：点要准，比例要对。
+
+### 术语对照
+
+草图：sketch（徒手画出关键特征）；精确绘制：plot（在方格纸上按比例描点）；交点：intercept；转折点：turning point；渐近线：asymptote。
 
 ## Key Vocabulary
 

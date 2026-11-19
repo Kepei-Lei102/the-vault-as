@@ -42,7 +42,7 @@ tags:
 
 他的核心公式是 $S = k \log W$：宏观的熵 $S$，等于玻尔兹曼常数 $k$ 乘以与该宏观态相容的**微观态数目** $W$ 的对数。混乱（高熵）之所以"自发"出现，仅仅因为对应的微观态数目压倒性地多。
 
-故事的悲剧与讽刺：玻尔兹曼一生为原子论辩护，却在原子被实验证实（爱因斯坦 1905 理论 + 佩兰 1908 实验）的前夕，于 1906 年自杀离世。而刻在他墓碑上、让他不朽的那个公式，**其实是普朗克写下的形式**——普朗克引入了常数 $k$，并以玻尔兹曼之名命名它。这又是一则[[Stories/Stigler's Law of Eponymy|斯蒂格勒命名律]]的例子。详细的数学（以及它如何在 1948 年变成香农的信息熵）见 **Information Theory** *(not yet released)*。
+故事的悲剧与讽刺：玻尔兹曼一生为原子论辩护，却在原子被实验证实（爱因斯坦 1905 理论 + 佩兰 1908 实验）的前夕，于 1906 年自杀离世。而刻在他墓碑上、让他不朽的那个公式，**其实是普朗克写下的形式**——普朗克引入了常数 $k$，并以玻尔兹曼之名命名它。这又是一则[[Stories/Stigler's Law of Eponymy|斯蒂格勒命名律]]的例子。详细的数学（以及它如何在 1948 年变成香农的信息熵）见 [[Information Theory]]。
 
 > **A note on what follows:** this is a story that ends in a death by suicide, told as history. It is handled plainly and without detail, the way the vault handles [[Stories/The War of the Currents|the electric chair]] — as part of the record, not as spectacle.
 
@@ -56,7 +56,7 @@ Boltzmann's leap — the one carved on his grave — was to say that entropy is 
 
 $$S = k \log W.$$
 
-Entropy is just the logarithm of the number of microstates, scaled by a constant. (Why the **logarithm**? Because if you put two independent systems side by side, their *numbers of arrangements multiply* — $W_{\text{total}} = W_1 W_2$ — but we want their *entropies to add*, $S_{\text{total}} = S_1 + S_2$. The one function that turns multiplication into addition is the log. The logarithm isn't a cosmetic choice; it is forced by the demand that entropy be additive — the same reason logs run through **information** *(not yet released)* and [[Logarithms|so much else]].)
+Entropy is just the logarithm of the number of microstates, scaled by a constant. (Why the **logarithm**? Because if you put two independent systems side by side, their *numbers of arrangements multiply* — $W_{\text{total}} = W_1 W_2$ — but we want their *entropies to add*, $S_{\text{total}} = S_1 + S_2$. The one function that turns multiplication into addition is the log. The logarithm isn't a cosmetic choice; it is forced by the demand that entropy be additive — the same reason logs run through [[Information Theory|information]] and [[Logarithms|so much else]].)
 
 This reframing detonates the mystery of the second law. A shuffled deck doesn't "want" to be disordered; it's just that there is exactly **one** ordered arrangement and about $8 \times 10^{67}$ shuffled ones, so a random shuffle lands you in the messy pile essentially every time. Heat spreads out, gases mix, ice melts in warm water — not because a law forbids the reverse, but because the reverse corresponds to so vanishingly few microstates that you would wait many times the age of the universe to see it. **The second law is not a commandment. It is a bet at overwhelming odds.** Boltzmann's **H-theorem** (1872) tried to prove this approach to equilibrium mechanically, tracking a quantity $H$ (essentially negative entropy) that he showed could only decrease.
 
@@ -114,7 +114,7 @@ $$H = -\sum_i p_i \log p_i.$$
 
 It is the *same mathematical object* as Boltzmann's entropy. If a system's $W$ microstates are equally likely, each has probability $p = 1/W$, and Shannon's formula collapses straight back to $S = k \log W$. When Shannon asked **John von Neumann** what to call his quantity, von Neumann (the story goes) told him to call it **entropy** — *"for two reasons. First, the same expression already appears in statistical mechanics. Second, nobody really knows what entropy is, so in a debate you'll always have the advantage."*
 
-This is not a metaphor or a pun. **Boltzmann's thermodynamic entropy and Shannon's information entropy are one quantity in two unit systems** — physics measures it in joules-per-kelvin with a natural log, information measures it in bits with a base-2 log, and **Landauer's principle** ($k_B T \ln 2$ of heat to erase one bit) is the exchange rate between them. The full development — the von Neumann story, the Shannon formula, Landauer — lives in ****Information Theory** *(not yet released)***. Boltzmann counted the microstates of a gas; Turing's codebreakers at Bletchley counted them in messages and called the unit the *ban* (see [[Stories/Turing at Bletchley]]); your phone counts them every time it compresses a photo. The equation on the gravestone turned out to be about *everything that can be uncertain.*
+This is not a metaphor or a pun. **Boltzmann's thermodynamic entropy and Shannon's information entropy are one quantity in two unit systems** — physics measures it in joules-per-kelvin with a natural log, information measures it in bits with a base-2 log, and **Landauer's principle** ($k_B T \ln 2$ of heat to erase one bit) is the exchange rate between them. The full development — the von Neumann story, the Shannon formula, Landauer — lives in **[[Information Theory]]**. Boltzmann counted the microstates of a gas; Turing's codebreakers at Bletchley counted them in messages and called the unit the *ban* (see [[Stories/Turing at Bletchley]]); your phone counts them every time it compresses a photo. The equation on the gravestone turned out to be about *everything that can be uncertain.*
 
 ## Honest edges
 
@@ -145,7 +145,7 @@ This is not a metaphor or a pun. **Boltzmann's thermodynamic entropy and Shannon
 ## Where this surfaces in the vault
 
 - **The physics pedagogy lives in [[Entropy and the Second Law]].** That card carries the three statements of the second law, Clausius's measurable $\Delta S = Q/T$, heat engines and the Carnot ceiling, the arrow of time, and $S=k\ln W$ worked as physics — while this Story keeps Boltzmann's life, the reversibility/recurrence paradoxes, and *why* the logarithm. Dual residency.
-- **The load-bearing information math lives in **Information Theory** *(not yet released)*.** That card carries $S = k_B \ln W$, the von Neumann naming story, the Shannon-equals-Boltzmann identity, and Landauer's principle as working content. This Story is its human prologue; they cross-link both ways (dual residency).
+- **The load-bearing information math lives in [[Information Theory]].** That card carries $S = k_B \ln W$, the von Neumann naming story, the Shannon-equals-Boltzmann identity, and Landauer's principle as working content. This Story is its human prologue; they cross-link both ways (dual residency).
 - **[[Stories/Stigler's Law of Eponymy]]** — the formula-and-constant authorship (Planck wrote it, named the constant after Boltzmann) is the *inverse* of a Stigler case: not a misattribution but a tribute, the credit landing exactly where it belongs. It's the instructive counter-example in that meta-card.
 - **[[Kinetic Theory and the Ideal Gas]]** — where the constant $k$ does concrete physics. That card derives $pV=NkT$ and $\tfrac{1}{2}m\langle c^2\rangle=\tfrac{3}{2}kT$ from molecules in a box; the same $k$ then reappears here counting microstates. The pedagogical companion to this Story.
 - **[[Stories/Turing at Bletchley]]** & **[[Stories/The Boolean-to-Silicon Bridge]]** — the other two legs of the entropy-becomes-information arc. Bletchley measured information in *bans*; Shannon married Boolean logic to circuits. Read all three for the full thread from a gas in a box to a language model.
@@ -162,7 +162,7 @@ This is not a metaphor or a pun. **Boltzmann's thermodynamic entropy and Shannon
 - *Loschmidt's paradox*, Wikipedia — the 1876 reversibility objection and the molecular-chaos assumption it exposed; Zermelo's 1896 recurrence objection from Poincaré recurrence.
 - On the constant and the formula's authorship: standard history-of-physics accounts that Planck introduced $k$ and wrote $S = k \log W$ in his 1900 blackbody work, naming $k$ after Boltzmann (the "$W$ = *Wahrscheinlichkeit*" point and the Planck attribution are widely documented, e.g. the *Boltzmann tombstone* entries and history-of-thermodynamics references).
 - R. Newburgh et al., "Einstein, Perrin, and the reality of atoms: 1905 revisited," *Am. J. Phys.* 74 (2006) — Einstein's 1905 Brownian-motion theory, Perrin's 1908 experiments, the convergence of Avogadro's number, and Ostwald's concession.
-- For the information-theory bridge, the von Neumann naming anecdote, and Landauer's principle: ****Information Theory** *(not yet released)*** (vault card) and its receipts.
+- For the information-theory bridge, the von Neumann naming anecdote, and Landauer's principle: **[[Information Theory]]** (vault card) and its receipts.
 - *S = k log W* tombstone, Vienna Zentralfriedhof Section 14C — photographs and the BSHS Vienna travel guide / Atlas Obscura "Boltzmann's Grave."
 
 > **Sensitive-topic note.** This card recounts a historical death by suicide. It is included as biography, told without detail. If this subject touches you personally, it's worth reaching out to someone you trust or a local support line.

@@ -18,7 +18,6 @@ tags:
   - level/IB
   - level/AP
   - curriculum/Cambridge-0606
-  - curriculum/A-Level
   - curriculum/IB-AA
   - curriculum/AP-Calculus-BC
   - curriculum/Cambridge-9709
@@ -64,15 +63,11 @@ This card stays inside the 0606 framing but cashes in on the bridge wherever it 
 
 ### 中文锚点
 
-**最优化 (zuìyōuhuà)** = 用微积分求**极值** (jízhí) — 最大值或最小值。
+你有 40 米栅栏，要靠着墙围一块长方形菜地。围得又长又窄，几乎围不到什么；围成贴着墙又宽又扁的一条，也几乎围不到什么；最大的菜地在两者之间的某个地方。在最好的那个形状上，把宽度稍微挪一点，面积几乎完全不变：你正站在山顶上，那里的地面是平的。这就是为什么令导数为零能找到候选点。然后还要问：这块平地是山顶还是谷底？允许范围的边缘会不会更好？题目问的到底是宽度还是面积？
 
-考试套路（六步走）：
-1. **确定目标函数 (mùbiāo hánshù)** $f$
-2. **用约束 (yuēshù) 消去多余变量**，让 $f$ 只含一个 $x$
-3. **求导，令 $f'(x) = 0$，解出临界点**
-4. **用二阶导数 $f''$ 判别**：$f'' > 0$ → 极小值，$f'' < 0$ → 极大值，$f'' = 0$ → 失效（用别的方法）
-5. **检查端点** — 如果是闭区间，最值可能在端点
-6. **回答原问题** — 题目要的是 $x$ 还是 $f(x)$？读清楚
+### 术语对照
+
+最优化：optimisation；极值：extremum（最大值 maximum / 最小值 minimum）；目标函数：objective function；约束：constraint；临界点：critical point（$f'(x) = 0$）；二阶导数判别：second-derivative test（$f'' > 0$ 极小，$f'' < 0$ 极大）；端点：endpoint。
 
 ---
 
@@ -331,7 +326,7 @@ This is the gateway to *constrained optimisation*: economics (utility maximisati
 
 Modern AI runs on optimisation. Every model — language model, image classifier, protein-structure predictor, autonomous-driving stack — has a **loss function** (how badly it's doing on training data) and **billions of parameters** (the model's weights). Training the model = finding the parameters that minimise the loss. That's exactly the optimisation problem on this card, just with $10^9$ variables instead of $1$.
 
-The algorithm: **gradient descent**. Start anywhere, compute $\nabla f$ (the multi-variable analogue of $f'$), step in the direction that decreases $f$ the fastest, repeat. It's the high-dimensional version of "follow $f'$ downhill until $f' = 0$." When the loss landscape is **convex** ($f'' \ge 0$ everywhere, generalised to many variables) the method is guaranteed to find the *global* minimum — the lowest possible loss, the best possible model. There's no "wrong valley" the algorithm could get stuck in.
+The algorithm: **gradient descent**. Start anywhere, compute $\nabla f$ (the multi-variable analogue of $f'$), step in the direction that decreases $f$ the fastest, repeat. It's the high-dimensional version of "follow $f'$ downhill until $f' = 0$." When the loss landscape is **convex** ($f'' \ge 0$ everywhere, generalised to many variables) there is no "wrong valley" to get stuck in: any minimum the method settles into is the *global* one — the lowest possible loss, the best possible model. Settling still depends on the size of the step. On $f(x) = x^2$ with step size $\eta$ the update is $x \leftarrow x - \eta \cdot 2x = (1 - 2\eta)x$. With $\eta = 0.1$ every step multiplies $x$ by $0.8$ and the iterates close in on $0$. With $\eta = 2$ every step multiplies $x$ by $-3$, and they fly apart on the most convex function there is. Convexity removes the wrong valleys; the step size, which machine learning calls the *learning rate*, decides whether you get down the right one.
 
 Modern deep-learning loss landscapes are *not* convex. Neural networks have countless local minima and saddle points spread across millions of dimensions, and gradient descent can in principle get stuck in a *local* minimum that's far from the global optimum. A huge amount of practical art goes into making it work anyway — good initialisations, momentum (Adam, RMSProp), batch normalisation, learning-rate schedules, dropout. The empirical fact that deep learning *does* work despite being non-convex is one of the most active and beautiful open questions in modern mathematics. (Current best guess: the loss landscapes of large neural networks have a lot of *near-equivalent* local minima, so gradient descent finds a "good enough" one. But nobody has a complete theory yet.)
 
