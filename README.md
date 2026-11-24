@@ -36,14 +36,14 @@ explains *why* a rule works, with proof and intuition, not just what to write do
 ## Get it
 
 ```bash
-git clone --depth 1 https://github.com/Kepei-Lei102/the-vault-student.git
+git clone --depth 1 https://github.com/Kepei-Lei102/the-vault-as.git
 ```
 
 `--depth 1` skips the history, so you download the material once rather than every version
 of it. Later, `git pull` inside the folder brings you up to date.
 
-No git? Download the latest `The_Vault_For_Student.zip` from the repository's **Releases**
-page and unzip it. Same contents; you just re-download to update.
+No git? Download `The_Vault_AS_2026.zip` from the [latest AS cohort release](https://github.com/Kepei-Lei102/the-vault-as/releases/latest)
+and unzip it. Same contents; you just re-download to update.
 
 **One folder, two ways in.** The same directory is an Obsidian vault *and* an AI tutor's
 workspace. You don't have to choose — most people end up using both.
